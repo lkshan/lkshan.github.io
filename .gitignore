@@ -1,0 +1,12 @@
+_site
+.sass-cache
+node_modules
+Gemfile.lock
+*.gem
+gulpfile.js
+jekyll-theme-clean-blog.gemspec
+LICENSE
+package-lock.json
+package.json
+README.md
+screenshot.png

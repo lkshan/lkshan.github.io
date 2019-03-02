@@ -1,0 +1,20 @@
+title:             Ja som Lukas
+email:             lukas.hanincik@gmail.com
+description:       Ja som Lukas a som na to hrdý
+author:            Lukas Hanincik
+
+# Social Profiles
+github_username:   lkshan
+facebook_username: lukas.hanincik
+instagram_username: lkshann
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/job_projects/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+collections:
+    - my_idols

@@ -1,0 +1,110 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | relative_url }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ site.title }}</h1>
+            {% if site.description %}
+            <span class="subheading">{{ site.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <div class="col-md-12">
+          <h4>Moja čiara života</h4>
+          <ul class="timeline">
+            <li>
+              <span class="text-bold">Moje narodenie</span>
+              <span class="float-right">3. Október, 1996</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Duis sagittis ligula in sodales vehicula....</p>
+            </li>
+            <li>
+              <span class="text-bold">Prvý deň v škôlke</span>
+              <span class="float-right">1. September, 1999</span>
+              <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+            </li>
+            <li>
+              <span class="text-bold">Prvý deň na základnej škole</span>
+              <span class="float-right">1. September, 2003</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">2. miesto na celoštátnej súťaži Expert</span>
+              <span class="float-right">5. Apríl, 2011</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">Ukončenie základnej školy testovaním Monitor 9</span>
+              <span class="float-right">30. Jún, 2012</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">Prvý deň na strednej škole</span>
+              <span class="float-right">1. September, 2012</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">Prvá pracovná ponuka v informatickom sektore</span>
+              <span class="float-right">25. Marec, 2015</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">3. miesto na krajskom kole slovenského pohára vo volejbale</span>
+              <span class="float-right">22. Máj, 2015</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">Ukončenie strednej školy maturitným testovaním</span>
+              <span class="float-right">31. Jún, 2016</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">Prvý deň na vysokej škole</span>
+              <span class="float-right">12. September, 2016</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">Prvý deň ako skutočný programátor</span>
+              <span class="float-right">14. Jún, 2017</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">Prihlásenie do súťaže IIT SRC</span>
+              <span class="float-right">24. Január, 2019</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+            <li>
+              <span class="text-bold">Dnešok</span>
+              {% assign months = "Január|Február|Marec|Apríl|Máj|Jún|Júl|August|September|Október|November|ecember" | split: "|" %}
+              {% assign m = "now" | date: "%-m" | minus: 1 %}
+              {% assign day = "now" | date: "%-d" %}
+              {% assign month = months[m] %}
+              {% assign year = "now" | date: "%Y" %}
+              <span class="float-right">{{day}}. {{month}}, {{year}}</span>
+              <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
