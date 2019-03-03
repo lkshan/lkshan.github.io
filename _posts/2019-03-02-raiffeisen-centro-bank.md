@@ -8,35 +8,22 @@ specification: job
 active: 1
 ---
 
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+Môj prvý projekt pri ktorom som sa prvý krát stretol s **Yii 2** a **Typo 3**. Na tomto projekte som začal pracovať hneď keď som dokončil projekt [Föeger parkettwelt]({% post_url 2019-03-02-Foeger-parkettwelt %}). V projekte RCB šlo predovšetkým o vylepšenie a zmodernizovanie starej stránky. Toto zahrňalo upgrade verzie **Typo3** a nový dizajn. Systém zobrazoval živé dáta zo svetových búrz ktoré pôsobili ako prostredník medzi investormi a brokermi (sprostredkovatelia nákupu a predaja investičných aktív). 
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<img class="img-fluid" src="{{ page.background | relative_url }}">
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+Na rozdiel od svojích doterajších úloh s dizajnom som na tomto projekte pracoval ako skutočný programátor. Vytváral som rôzne tabuľkové modulý ktoré obsahovali základné informácie o aktívach, vývoj cien akcií, trend ekonomiky a podobne. Najväčšou výzvou pre mňa bola implementácia tzv. weather máp. Tieto mapy zobrazujú stav ekonomík rôznych štátov podľa aktuálneho trendu (rastúci, stagnujúci, klesajúci). Možno sa to zdá ako triviálnosť ale v komerčnom prostredí tomu tak nie je. Ako prvé je nevyhnutné nájsť existujúcu knižnicu na ktorú sa vzťahujú také licenčné podmienky ktoré sú priaznivé pre obé strany. Inými slovami, takú knižnicu ktorá nie je prehnane predražená a jednoducho implementovateľná. Ja som si vybral knižnicu [Ammaps](https://www.amcharts.com/visited_countries/). Ďalej som už podračoval štandardným spôsobom.
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+<img class="img-fluid" src="{{ "/img/posts/RCB_after.png" | relative_url }}">
 
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+Výsledok projektu bol neopísateľný. Prehľadná stránka, ktorá zachytáva všetky potrebné informácie. Nádherne vizualizované dáta pomocou grafov a máp. Z pohľadu mňa ako programátora som sa toho veľmi veľa naučil. Okrem zlepšených programátorských schopností som konečne pochopil aj tomu, čo tie čísla a skratky v tých tabuľkách znamenajú :D
 
-<h2 class="section-heading">The Final Frontier</h2>
+## Odmena
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+Po nasadení nového systému na *LIVE* server sme dostali pozvanie od spoločnosti *Raiffeisen Bank* na spoločné posedenie vo Viedni. Toto posedenie bol prejav vďaky za dobre odvedenú prácu. A úprimne si neviem predstaviť lepší prejav vďaky ako večera v centre Viedne, so skvelým jedlom, výborným vínom a nadherným počasím.
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<img class="img-fluid" src="{{ "/img/posts/RCB_party1.jpg" | relative_url }}">
+<span class="caption text-muted">Cheers!! Don't worry, it's just water.</span>
 
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-<h2 class="section-heading">Reaching for the Stars</h2>
-
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
+<img class="img-fluid" src="{{ "/img/posts/RCB_party2.jpg" | relative_url }}">
+<span class="caption text-muted">Och a to jedlooooo....</span>
