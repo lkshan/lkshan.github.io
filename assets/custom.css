@@ -82,9 +82,52 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+footer{
+  background-color: #212529;
+}
+footer a{
+  color: #0085A1;
+}
+footer a:hover{
+  color: #6c757d;
+}
+footer p.copyright{
+  color: white !important;
+}
+@media only screen and (min-width: 992px)
+{
+  #mainNav.is-fixed{
+    background-color: #212529;
+  }
+  #mainNav.is-fixed .navbar-brand, #mainNav.is-fixed .navbar-nav > li.nav-item > a{
+    color: white;
+  }
+}
 .text-underline{
   text-decoration: underline;
 }
 .text-bold{
+  font-weight: bold;
+}
+.text-no-bold{
+  font-weight: normal;
+}
+.icon-image{
+  height: 60px;
+  width: auto;
+  padding: 5px 0 10px 0;
+}
+table.my-skills tr{
+  border-bottom: 1px solid grey;
+}
+table.my-skills tr td:nth-of-type(1){
+  text-align: center;
+}
+table.my-skills tr td:nth-of-type(3){
+  text-align: left;
+}
+table.my-skills tr td:nth-of-type(2), table.my-skills tr th:nth-of-type(2){
+  width: 250px;
+  text-align: center;
   font-weight: bold;
 }
