@@ -3,7 +3,7 @@ layout: post
 title:  "Test skrytej stránky"
 subtitle: "Táto stránka je neviditeľná kvôli atribútu active"
 date:   2019-01-01
-background: '/img/posts/01.jpg'
+background: '/img/posts/foeger.png'
 specification: job
 active: 0
 ---
