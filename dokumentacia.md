@@ -60,3 +60,7 @@ Okrem základných požiadaviek som na stránku pridal aj takzvaný *favicon*. I
 Pre zjednodušenie prístupu a prehľadnosť kódu som si rôzne komponenty layoutov rozdelil na menšie časti a uložil si ich do priečinka `_includes`. Medzi tieto komponenty patria napríklad HTML hlavičky na linkovanie *CSS* a *JS* súborov. Tiež som si osobitne uložil aj navigáciu a pätičku webového sídla.
 
 Pri vyhotovovaní zadania som použil dizajnovací framework Bootstrap, ktorý je uložený v adresári `assets/vendor/bootstrap`. Kvôli zlepšeniu vizualizácie tlačidiel som použil ikonický font zvaný FontAwesome uložený v adresári `assets/vendor/fontawesome-free`. Okrem Bootstrapu som si vytváral aj vlastné štýly ktoré som uložil v adresári `assets/custom.css`.
+
+V projekte som okrem iného použil aj odkazy na extérne stránky ale tiež odkazy aj na vnútorné stránky ako napríklad na rôzne konkrétne projekty na ktoré sa odvolávam v iných projektoch. Príklad využitia vytvorenej linky na inú stránku je možné vidieť aj v otmto súbore na riadku 46.
+
+Už spomínaný ikonický font FontAwesome som nalinkoval z extérneho zdroja. Zdroj je overovaný pomocou SHA integrity. FontAwesome načítavam z externého súboru z dôvodu šetrenia pamäťovým priestorom a tiež, lebo systém AIS nedovoľuje posielanie súborov väčších ako 20MB, tak som musel zmazať nejaké redundantné moduly. 
