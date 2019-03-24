@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dokumentácia
+title: Zadanie 1
 description: Dokumentácia 1. zadania z WPUB
 background: '/img/bg-dokumentacia.jpg'
 ---
